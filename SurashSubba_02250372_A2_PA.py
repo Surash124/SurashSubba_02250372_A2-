@@ -1,6 +1,11 @@
 
 def linear_search():
     while True:
+        
+        print( )
+        print("Use This")
+        print("02250371 02250372 02250373 02250374 02250375 02250376 02250377 02250378 02250379 02250380 02250381 02250382 02250383 02250384 02250385 02250386 02250387 02250388 02250389 02250390")
+        print( )
         try:
             student_ids = list(map(int, input("Enter student IDs separated by space: ").split()))
             break  # valid input, exit loop
@@ -30,6 +35,13 @@ def linear_search():
 #print(linear_search())
  
 def binarysearch():
+
+    print( )
+    print("Use This")
+    print("18.5 15.0 19.5 17.0 16.5 14.0 20.0 13.5 18.0 16.0 19.0 15.5 17.5 14.5 12.0 19.7 18.2 16.8 15.2 17.8")
+    print( )
+    
+
     while True:
         try:
             test_scores = list(map(float, input("Enter test scores separated by space: ").split()))
